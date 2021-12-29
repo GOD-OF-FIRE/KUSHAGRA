@@ -13,7 +13,7 @@
     --opacity: 60%;
     --card-background: #26243b;
   }
-  html{
+body{
   cursor: url('cursor.png'),pointer;
   
 }
