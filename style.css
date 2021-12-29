@@ -13,7 +13,7 @@
     --opacity: 60%;
     --card-background: #26243b;
   }
-  body{
+  html{
   cursor: url('cursor.png'),pointer;
   
 }
@@ -4512,3 +4512,14 @@
   .react{
     margin-left: 10%;
   }
+body::-webkit-scrollbar {
+  width: 0.8em;  
+ 
+}
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #feac5e, #c779d0, #4bc0c8);
+  outline: 1px solid slategrey;
+  border-radius: 10px;
+  animation: gradient 10s ease infinite;
+  
+}
